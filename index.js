@@ -1,10 +1,10 @@
 const express = require('express')
-const cors = require('cors');
 // const morgan = require('morgan');
 const userController = require('./controllers/users')
 const postController = require('./controllers/posts')
 
 const app = express()
+const cors = require('cors');
 
 app.use(express.static(__dirname + '/' + 'public'))
 app.use(cors()) 
