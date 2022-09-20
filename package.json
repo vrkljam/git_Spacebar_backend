@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "node build/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CueBitts/social-media-app-backend.git"
+    "url": "git+https://github.com/vrkljam/git_Spacebar_backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CueBitts/social-media-app-backend/issues"
+    "url": "https://github.com/vrkljam/git_Spacebar_backend/issues"
   },
-  "homepage": "https://github.com/CueBitts/social-media-app-backend#readme",
+  "homepage": "https://github.com/vrkljam/git_Spacebar_backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",

@@ -8,10 +8,9 @@ const mongoURI =
       process.env.DB_URL
     :
       process.env.DEV_DB_URL
-mongoose.Promise = Promise
+// mongoose.Promise = Promise
 
-mongoose
- .connect(mongoURI, { 
+mongoose.connect(mongoURI, { 
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
