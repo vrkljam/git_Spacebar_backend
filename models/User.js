@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
     },
     profilePic: {
         type: String,
-        required: true,
+        required: false,
         default: "https://st4.depositphotos.com/1000507/24489/v/450/depositphotos_244890858-stock-illustration-user-profile-picture-isolate-background.jpg"
     },
     password: {
