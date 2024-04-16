@@ -19,8 +19,9 @@ app.use('/posts', postController)
 app.set('port', process.env.PORT || 4000)
 
 app.get('/', (req, res) => {
-    res.send('MV hello world!');
+    res.send('KV hello world!');
 });
+
 
 app.listen(app.get('port'), () => {
     console.log(`PORT: ${app.get('port')}` )

@@ -3,7 +3,7 @@ const Post = require('../models/Post')
 
 const router = express.Router()
 
-router.post('/', async (req, res) => {
+router.post('/post', async (req, res) => {
   try {
     res.json(
       await Post.create(req.body)
